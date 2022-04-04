@@ -1,0 +1,153 @@
+@media (max-width:760px) {
+    /*#########  mobile  menu #########*/
+.mobilemenu {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    padding: 0 2.5%;
+}
+    ul.topnav {
+    background-color: white;
+    width: 50%;
+    left: -100%;
+    top:10%;
+    position: fixed;
+    transition: all .8s;
+}
+ul.topnav li {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+ul.topnav li a {
+    color: black;
+    padding: 20px 40%;
+}
+
+ul.topnav li a:hover,
+ul.topnav li a.active {
+    background-color: black;
+    color: white;
+}
+#check {
+    display:none;
+}
+
+.mobilemenu {
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    right:10px;
+    cursor: pointer;
+}
+
+#check:checked ~ ul.topnav {
+    left:0;
+}
+button.navbutton {
+    display: none;
+}
+
+
+/*header*/
+
+header {
+    margin: 10% 2.5%;
+}
+
+.headertext {
+    width: 100%;
+}
+
+.headertext h1 {
+    font-size: 3em;
+    padding-bottom: .3em;
+}
+ 
+.logoss {
+    width: 100%;
+    margin: 10% 0;
+    display: block;
+    text-align: center;
+}
+
+.logoss img {
+    padding: 30px 30px 0 30px;
+}
+
+
+/*####### middle sections #######*/
+
+.midbox {
+    display: block;
+}
+
+.midbox, .midbox2, .bottombox {
+    padding: 12% 0;
+}
+.midbox img {
+    width: 100%;
+    padding: 6% 0;
+}
+
+
+.midbox2text {
+    margin: 20% 0 10% 0;
+}
+.midbox h2 {
+    font-size: 2.5em;
+}
+
+
+.midbox2 {
+    display: block;
+    padding: 8% 2.5%;
+}
+.midbox2 h3 {
+    font-size: 2.5em;
+}
+
+
+.boxtext {
+    padding:0 2.5%;
+}
+
+
+.bottombox {
+    width: 95%;
+}
+.bottombox h4,
+.bottombox p {
+    width: 100%;
+}
+
+
+button {
+    background-color: yellow;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1.2rem;
+    margin: 3% 0;
+}
+
+.navbutton {
+    background-color: yellow;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* footer section */
+footer {
+    padding: 5% 2.5%;
+}
+
+}
+
