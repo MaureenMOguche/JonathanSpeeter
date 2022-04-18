@@ -83,6 +83,7 @@ header {
 
 .midbox {
     display: block;
+    width:100%;
 }
 
 .midbox, .midbox2, .bottombox {
@@ -149,7 +150,7 @@ footer {
     padding: 5% 2.5%;
 }
 footer h1 {
-    font-size: .5em;
+    font-size: 1.6em;
 }
 .socialicons img {
     padding: 0 .1rem;
