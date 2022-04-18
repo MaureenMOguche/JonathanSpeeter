@@ -148,6 +148,8 @@ button {
 footer {
     padding: 5% 2.5%;
 }
-
+footer h1 {
+    font-size: .5em;
+}
 }
 
